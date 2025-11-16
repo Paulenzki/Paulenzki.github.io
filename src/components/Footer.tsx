@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-[url('/images/Footer.jpg')] bg-cover bg-center  text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
+        <div className="flex flex-wrap">
+          <div className="bg-gray-600/50 p-5 rounded-lg">
             <div>
               <a href="https://www.instagram.com/paulenzki_duo/"
                 target="_blank" rel="noopener noreferrer"
@@ -32,17 +32,16 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="grow"></div>
+
+          <div className="text-right bg-gray-600/60 p-5 rounded-lg h-fit">
             <Link to="/impressum" className="text-white hover:text-gray-300 hover:underline block mb-2">
               Impressum
             </Link>
             <Link to="/privacy" className="text-white hover:text-gray-300 hover:underline block mb-2">
               Datenschutz
             </Link>
-          </div>
-
-          <div className="flex items-end">
-            <p className="text-center text-gray-100">
+            <p className="text-gray-100 text-sm mt-4">
               © 2025 Paulenzki
             </p>
           </div>
