@@ -1,5 +1,5 @@
 
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 import Layout from '../components/Layout';
@@ -11,6 +11,7 @@ import Gallery from '../components/Gallery';
 
 export default function Home() {
   const { hash } = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const sectionHash = hash.split("#")[1];
@@ -18,9 +19,12 @@ export default function Home() {
       const element = document.getElementById(sectionHash);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
+        // Remove the sectionHash from the URL without reloading the page
+        navigate(window.location.pathname, { replace: true });
+
       }
     }
-  }, [hash]);
+  }, [hash, navigate]);
 
   return (
     <Layout>
