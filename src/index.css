@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@fontsource/oswald";
+@import "@fontsource/eb-garamond";
+
+@theme {
+  --font-oswald: "Oswald", sans-serif; 
+  --font-eb-garamond: "EB Garamond", serif;
+}
+
