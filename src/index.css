@@ -2,6 +2,10 @@
 @import "@fontsource/oswald";
 @import "@fontsource/eb-garamond";
 
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
 @theme {
   --font-oswald: "Oswald", sans-serif; 
   --font-eb-garamond: "EB Garamond", serif;
