@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="border-b-8 border-rose-600 w-1/2 mb-4"></div>
         <p className="text-xl md:text-2xl text-white mb-8">Partnerakrobatik</p>
         <div>
-          <ul className="inline-flex space-x-6 text-white">
+          <ul className="inline-flex space-x-6 text-white flex-wrap justify-center">
             <li>
               <Link to="#intro" className="text-white hover:underline text-lg md:text-xl">
                 Über uns

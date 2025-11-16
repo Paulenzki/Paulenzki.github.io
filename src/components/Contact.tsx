@@ -5,7 +5,7 @@ export default function Contact() {
     <div className=" bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 id="contact" className="text-5xl font-oswald text-rose-800 font-bold mb-8">Kontakt</h1>
-        <div className="flex flex-row justify-evenly items-start">
+        <div className="flex flex-row flex-wrap justify-evenly items-start">
           <div>
             <p className="text-center text-sm font-semibold">
               Instagram
