@@ -8,7 +8,7 @@ export default function Hero() {
         <source src="/videos/hero.webm" type="video/webm" />
       </video>
       <div className="relative z-10 flex flex-col items-center justify-center h-full bg-gray-500/40 text-center px-4">
-        <h1 className="text-5xl md:text-7xl font-eb-garamond capitalize text-white font-bold mb-4">Paulenzki</h1>
+        <h1 className="text-5xl md:text-7xl font-eb-garamond uppercase text-white font-bold mb-4">Paulenzki</h1>
         <div className="border-b-8 border-rose-600 w-1/2 mb-4"></div>
         <p className="text-xl md:text-2xl text-white mb-8">Partnerakrobatik</p>
         <div>
