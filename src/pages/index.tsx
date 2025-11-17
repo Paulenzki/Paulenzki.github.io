@@ -27,14 +27,16 @@ export default function Home() {
   }, [hash, navigate]);
 
   return (
-    <Layout>
+    <div>
       <Hero />
-      <Intro />
-      <Contact />
-      <Shows />
-      <Gallery />
-      <References />
+      <Layout>
+        <Intro />
+        <Contact />
+        <Shows />
+        <Gallery />
+        <References />
 
-    </Layout>
+      </Layout>
+    </div>
   );
 }
