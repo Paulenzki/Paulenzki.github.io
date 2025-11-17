@@ -9,18 +9,18 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    "images/Flux2.jpg",
-    "images/Selb2.jpg",
-    "images/Selb3.jpg",
-    "images/Flux3.jpg",
-    "images/Flux1.jpg",
-    "images/Selb1.jpg",
     "images/Shooting1.jpg",
     "images/Shooting3.jpg",
     "images/Shootin2.jpg",
-    "images/Sport1.jpg",
+    "images/Flux2.jpg",
+    "images/Flux3.jpg",
+    "images/Flux1.jpg",
     "images/Sport3.jpg",
+    "images/Sport1.jpg",
     "images/Sport2.jpg",
+    "images/Selb1.jpg",
+    "images/Selb2.jpg",
+    "images/Selb3.jpg",
   ];
 
 
