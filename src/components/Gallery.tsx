@@ -1,8 +1,12 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 export default function Gallery() {
+  const { t } = useTranslation();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
     "images/Flux2.png",
@@ -14,7 +18,6 @@ export default function Gallery() {
     "images/Shooting1.jpg",
     "images/Shooting3.jpg",
     "images/Shootin2.jpg",
-    "images/Intro.jpg",
     "images/Sport1.jpg",
     "images/Sport3.jpg",
     "images/Sport2.jpg",
@@ -24,7 +27,7 @@ export default function Gallery() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 id="gallery" className="text-5xl font-oswald text-rose-800 font-bold mb-8">Gallerie</h1>
+      <h1 id="gallery" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("gallery.header")}</h1>
       <Swiper
         modules={[Navigation, Pagination]}
         navigation
@@ -43,10 +46,27 @@ export default function Gallery() {
       >
         {images.map((src, index) => (
           <SwiperSlide key={index} className="flex justify-center">
-            <img src={src} alt={`Gallery Image ${index + 1}`} className="rounded-lg shadow-lg object-cover h-64 w-full" />
+            <img
+              src={src}
+              alt={`Gallery Image ${index + 1}`}
+              className="rounded-lg shadow-lg object-cover h-64 w-full"
+              onClick={() => setSelectedImage(src)}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black/60  z-50 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            className="max-h-[60vh] max-w-[60vw] object-contain rounded-lg"
+            alt=""
+          />
+        </div>
+      )}
     </div>
   );
 }

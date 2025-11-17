@@ -1,7 +1,9 @@
 import { Instagram, Mail, Youtube } from "react-feather";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-[url('/images/Footer.jpg')] bg-cover bg-center  text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -36,10 +38,10 @@ export default function Footer() {
 
           <div className="text-right bg-gray-600/60 p-5 rounded-lg h-fit">
             <Link to="/impressum" className="text-white hover:text-gray-300 hover:underline block mb-2">
-              Impressum
+              {t("footer.contact")}
             </Link>
             <Link to="/privacy" className="text-white hover:text-gray-300 hover:underline block mb-2">
-              Datenschutz
+              {t("footer.privacy")}
             </Link>
             <p className="text-gray-100 text-sm mt-4">
               © 2025 Paulenzki

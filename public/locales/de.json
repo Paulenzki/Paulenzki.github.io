@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Paulenzki",
+    "subtitle": "Partnerakrobatik"
+  },
+  "intro": {
+    "header": "Über uns",
+    "text": [
+      "Wir sind Paula und Lenz aus Regensburg – zwei Akrobatikabenteurer, die so lange über diverse Bühnen und durch die Akrobatikwelt geirrt, geflogen und gelegentlich elegant gestrauchelt sind, bis wir 2024 aufeinander gestolpert sind… und beschlossen haben, gemeinsam weiterzufliegen.",
+      "Unsere gemeinsame Sprache ist Partnerakrobatik: Figuren, die aussehen, als hätten wir uns mit der Schwerkraft auf einen sehr kreativen Kompromiss geeinigt. Dazu ein Hauch Breakdance, etwas Handstandwahnsinn und viel Freude am gemeinsamen Hoch-, Runter- und Durcheinander.",
+      "Wir glauben an Kunst, die im Moment entsteht – wenn Vertrauen, Timing und eine Prise „Ach, probieren wir’s einfach!“ sich zusammentun.",
+      "Zwei Körper, ein gemeinsames Gleichgewicht – und die unerschütterliche Überzeugung, dass die Welt ein bisschen schöner wird, wenn jemand kurz in der Luft hängt."
+    ]
+  },
+  "contact": {
+    "header": "Kontakt"
+  },
+  "shows": {
+    "header": "Shows",
+    "show": [
+      {
+        "title": "Morgen ohne Sorgen",
+        "description": [
+          "„Morgen ohne Sorgen“ – ein akrobatisches Morgenchaos.",
+          "Der Wecker klingelt, die Augen sind schwer, und der Tag beginnt… doch nicht ganz so, wie man denkt.",
+          "In „Morgen ohne Sorgen“ verwandelt sich der ganz normale Start in den Tag in eine mitreißende Akrobatikshow: Zwei verschlafene Körper erwachen, kämpfen sich aus dem Bett, ziehen sich halb im Handstand um – und zeigen dabei, dass man auch kopfüber in den Tag starten kann.",
+          "Denn mal ehrlich: Wer braucht schon Kaffee, wenn man Akrobatik machen kann?",
+          "Dauer: ~25 Minuten"
+        ]
+      },
+      {
+        "title": "All in",
+        "description": [
+          "\"All in\" erzählt von dem Moment, in dem man loslässt – und dem Mut, sich fangen zu lassen.",
+          "Zwei Menschen gehen aufs Ganze, stürzen, kippen, schweben. Und jedes Mal, wenn die Schwerkraft gewinnt, ist da eine Hand, die hält.",
+          "In beeindruckenden Hebefiguren, riskanten Flügen und stillen Berührungen entsteht ein akrobatischer Dialog über Nähe, Scheitern und den Willen, immer wieder aufzustehen.",
+          "Denn alles zu geben heißt auch, sich blind zu vertrauen.",
+          "Dauer: ~8 Minuten"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "header": "Galerie"
+  },
+  "references": {
+    "header": "Referenzen"
+  },
+  "footer": {
+    "contact": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

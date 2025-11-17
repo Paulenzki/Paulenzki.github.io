@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { HashRouter, useRoutes } from 'react-router-dom'
 import routes from "virtual:generated-pages-react"
-
+import './i18n'
 
 export function App() {
   return (

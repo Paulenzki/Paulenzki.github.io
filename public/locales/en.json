@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "Paulenzki",
+    "subtitle": "Partner Acrobatics"
+  },
+  "intro": {
+    "header": "About Us",
+    "text": [
+      "We are Paula and Lenz from Regensburg (Germany) – two acrobatic adventurers who wandered, flew, and occasionally stumbled gracefully across various stages and through the world of acrobatics… until in 2024, we crossed paths and decided to keep flying together.",
+      "Our shared language is partner acrobatics: poses that look as if we’ve reached a very creative compromise with gravity. Add a touch of breakdancing, a bit of handstand madness, and plenty of joy in lifting, falling, and tumbling together.",
+      "We believe in art that happens in the moment – when trust, timing, and a sprinkle of “Well, let’s just try it!” come together.",
+      "Two bodies, one shared balance – and the unwavering conviction that the world becomes a little brighter when someone hangs in the air, even for just a moment."
+    ]
+  },
+  "contact": {
+    "header": "Contact"
+  },
+  "shows": {
+    "header": "Shows",
+    "show": [
+      {
+        "title": "Roll out of bed, no worries ahead",
+        "description": [
+          "\"Roll out of bed, no worries ahead\" – an acrobatic morning chaos.",
+          "The alarm rings, your eyes feel heavy, and the day begins… though not quite the way you’d expect.",
+          "In \"Roll out of bed, no worries ahead\" an ordinary start to the day transforms into a captivating acrobatic show: two sleepy bodies wake up, fight their way out of bed, get dressed half in a handstand – and prove that you can kick off the day upside down. ",
+          "Because honestly: who needs coffee when you can do acrobatics?",
+          "Duration: ~25 min"
+        ]
+      },
+      {
+        "title": "All in",
+        "description": [
+          "“All in” tells the story of the moment you let go – and the courage it takes to be caught.",
+          "Two people go all in: they fall, tilt, hover. And every time gravity wins, there’s a hand ready to hold on. Through impressive lifts, daring flights, and quiet touches, an acrobatic dialogue unfolds – about closeness, failure, and the will to rise again and again.",
+          "Because giving everything also means trusting blindly. ",
+          "Duration: ~8 min"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "header": "Gallery"
+  },
+  "references": {
+    "header": "References"
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
+  }
+}

@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Shows() {
 
+  const { t } = useTranslation();
   const [showVideos, setShowVideos] = useState(false);
 
 
@@ -9,8 +11,8 @@ export default function Shows() {
   return (
     <div className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 id="shows" className="text-5xl font-oswald text-rose-800 font-bold mb-8">Shows</h1>
-        <h2 className="text-3xl text-slate-600 font-semibold mb-4">Morgen ohne Sorgen</h2>
+        <h1 id="shows" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("shows.header")}</h1>
+        <h2 className="text-3xl text-slate-600 font-semibold mb-4">{t("shows.show.0.title")}</h2>
         {!showVideos && (
           <div className="flex flex-col justify-center">
             <button
@@ -36,18 +38,14 @@ export default function Shows() {
               allowFullScreen />
           </div>
         )}
-        <p className="text-lg pt-5">
-          „Morgen ohne Sorgen“ – ein akrobatisches Morgenchaos.
-          <br /><br />
-          Der Wecker klingelt, die Augen sind schwer, und der Tag beginnt… doch nicht ganz so, wie man denkt.
-          <br /><br />
-          In „Morgen ohne Sorgen“ verwandelt sich der ganz normale Start in den Tag in eine mitreißende Akrobatikshow: Zwei verschlafene Körper erwachen, kämpfen sich aus dem Bett, ziehen sich halb im Handstand um – und zeigen dabei, dass man auch kopfüber in den Tag starten kann.
-          <br /><br />
-          Denn mal ehrlich: Wer braucht schon Kaffee, wenn man Akrobatik machen kann?
-          <br /><br />
-          Dauer: ~25 Minuten
-        </p>
-        <h2 className="text-3xl text-slate-600 font-semibold mb-4">All In</h2>
+        <div className="text-lg pt-5">
+          {(t("shows.show.0.description", { returnObjects: true, defaultValue: [] }) as string[])
+            .map((line: string, i: number) => (
+              <p key={i} className="mb-4">{line}</p>
+            ))
+          }
+        </div>
+        <h2 className="text-3xl text-slate-600 font-semibold mb-4">{t("shows.show.1.title")}</h2>
         {!showVideos && (
           <div className="flex flex-col justify-center">
             <button
@@ -73,19 +71,13 @@ export default function Shows() {
               allowFullScreen />
           </div>
         )}
-        <p className="text-lg pt-5">
-          "All in" erzählt von dem Moment, in dem man loslässt – und dem Mut, sich fangen zu lassen.
-          <br /><br />
-          Zwei Menschen gehen aufs Ganze, stürzen, kippen, schweben. Und jedes Mal, wenn die Schwerkraft gewinnt, ist da eine Hand, die hält.
-          <br /><br />
-          In beeindruckenden Hebefiguren, riskanten Flügen und stillen Berührungen entsteht ein akrobatischer Dialog über Nähe, Scheitern und den Willen, immer wieder aufzustehen.
-          <br /><br />
-          Denn alles zu geben heißt auch, sich blind zu vertrauen.
-          <br /><br />
-          Dauer: ~8 Minuten
-        </p>
-
-
+        <div className="text-lg pt-5">
+          {(t("shows.show.1.description", { returnObjects: true, defaultValue: [] }) as string[])
+            .map((line: string, i: number) => (
+              <p key={i} className="mb-4">{line}</p>
+            ))
+          }
+        </div>
       </div>
     </div >
   );
