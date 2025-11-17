@@ -9,12 +9,12 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    "images/Flux2.png",
-    "images/Selb2.png",
+    "images/Flux2.jpg",
+    "images/Selb2.jpg",
     "images/Selb3.jpg",
     "images/Flux3.jpg",
-    "images/Flux1.png",
-    "images/Selb1.png",
+    "images/Flux1.jpg",
+    "images/Selb1.jpg",
     "images/Shooting1.jpg",
     "images/Shooting3.jpg",
     "images/Shootin2.jpg",
@@ -62,7 +62,7 @@ export default function Gallery() {
         >
           <img
             src={selectedImage}
-            className="max-h-[60vh] max-w-[60vw] object-contain rounded-lg"
+            className="max-h-[95vh] max-w-[95vw] lg:max-w-[80vh] lg:max-h-[80vh] object-contain rounded-lg"
             alt=""
           />
         </div>
