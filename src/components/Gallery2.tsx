@@ -1,11 +1,9 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import { useTranslation } from 'react-i18next';
 import { useRef, useState } from 'react';
 
 export default function Gallery2() {
-  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const swiperRef = useRef<null>(null);
 
