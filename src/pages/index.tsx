@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Contact from '../components/Contact';
 import Shows from '../components/Shows';
 import Gallery from '../components/Gallery';
+import Gallery2 from '../components/Gallery2';
 
 export default function Home() {
   const { hash } = useLocation();
@@ -34,6 +35,7 @@ export default function Home() {
         <Contact />
         <Shows />
         <Gallery />
+        <Gallery2 />
         <References />
 
       </Layout>

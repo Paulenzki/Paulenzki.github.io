@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export default function Intro() {
   const { t } = useTranslation();
   return (
-    <div className="max-w-4xl py-10 mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl py-10 mx-auto px-4 sm:px-6 lg:px-8">
       <h1 id="intro" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("intro.header")}</h1>
       <div className="flex items-center flex-wrap">
         <div className="lg:w-3/5 w-full">

@@ -3,7 +3,8 @@ import { Instagram, Mail, Youtube } from "react-feather";
 export default function Contact() {
   return (
     <div className=" bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="border-t pt-12" />
         <h1 id="contact" className="text-5xl font-oswald text-rose-800 font-bold mb-8">Kontakt</h1>
         <div className="flex flex-row flex-wrap justify-evenly items-start">
           <div>

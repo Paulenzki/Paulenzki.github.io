@@ -10,9 +10,10 @@ export default function Shows() {
 
   return (
     <div className="py-20 bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="border-t pt-12" />
         <h1 id="shows" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("shows.header")}</h1>
-        <h2 className="text-3xl text-slate-600 font-semibold mb-4">{t("shows.show.0.title")}</h2>
+        <h2 className="text-3xl text-slate-600 font-semibold mt-14 mb-4">{t("shows.show.0.title")}</h2>
         {!showVideos && (
           <div className="flex flex-col justify-center">
             <button
@@ -38,14 +39,14 @@ export default function Shows() {
               allowFullScreen />
           </div>
         )}
-        <div className="text-lg pt-5">
+        <div className="text-lg pt-8">
           {(t("shows.show.0.description", { returnObjects: true, defaultValue: [] }) as string[])
             .map((line: string, i: number) => (
               <p key={i} className="mb-4">{line}</p>
             ))
           }
         </div>
-        <h2 className="text-3xl text-slate-600 font-semibold mb-4">{t("shows.show.1.title")}</h2>
+        <h2 className="text-3xl text-slate-600 font-semibold mt-14 mb-4 ">{t("shows.show.1.title")}</h2>
         {!showVideos && (
           <div className="flex flex-col justify-center">
             <button
@@ -71,7 +72,7 @@ export default function Shows() {
               allowFullScreen />
           </div>
         )}
-        <div className="text-lg pt-5">
+        <div className="text-lg pt-8">
           {(t("shows.show.1.description", { returnObjects: true, defaultValue: [] }) as string[])
             .map((line: string, i: number) => (
               <p key={i} className="mb-4">{line}</p>

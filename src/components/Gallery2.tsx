@@ -4,24 +4,24 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { useTranslation } from 'react-i18next';
 import { useRef, useState } from 'react';
 
-export default function Gallery() {
+export default function Gallery2() {
   const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const swiperRef = useRef<null>(null);
 
   const images = [
-    "images/Shootin2.jpg",
-    "images/Flux2.jpg",
-    "images/Flux3.jpg",
-    "images/Flux1.jpg",
-    "images/Selb1.jpg",
-    "images/Selb2.jpg",
+    "images/Shooting1.jpg",
+    "images/Shooting3.jpg",
+    "images/Sport3.jpg",
+    "images/Sport1.jpg",
+    "images/Sport2.jpg",
+    "images/Selb3.jpg",
   ];
 
+
+
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="border-t pt-12" />
-      <h1 id="gallery" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("gallery.header")}</h1>
+    <div className="pt-3 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Swiper
         ref={swiperRef}
         loop={true}
@@ -45,7 +45,7 @@ export default function Gallery() {
             <img
               src={src}
               alt={`Gallery Image ${index + 1}`}
-              className="shadow-lg object-cover h-96 w-full"
+              className=" shadow-lg object-cover h-[600px] w-full"
               onClick={() => setSelectedImage(src)}
             />
           </SwiperSlide>

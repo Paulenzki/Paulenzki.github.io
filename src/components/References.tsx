@@ -5,7 +5,8 @@ export default function References() {
   const { t } = useTranslation();
   return (
     <div className="py-20 bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="border-t pt-12" />
         <h1 id="references" className="text-5xl font-oswald text-rose-800 font-bold mb-8">{t("references.header")}</h1>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>
