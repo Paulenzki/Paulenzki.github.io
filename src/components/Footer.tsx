@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const { t } = useTranslation();
   return (
-    <footer className="bg-[url('/images/Footer.jpg')] bg-cover bg-center  text-white">
+    <footer className="bg-[url('/images/Footer.jpg')] bg-cover  bg-top  text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap">
-          <div className="bg-gray-600/50 p-5 rounded-lg">
+        <div className="flex h-[400px] justify-center">
+          <div className="pb-5 pt-20 rounded-lg">
             <div>
               <a href="https://www.instagram.com/paulenzki_duo/"
                 target="_blank" rel="noopener noreferrer"
@@ -32,20 +32,19 @@ export default function Footer() {
                 info@paulenzki.de
               </a>
             </div>
-          </div>
 
-          <div className="grow"></div>
 
-          <div className="text-right bg-gray-600/60 p-5 rounded-lg h-fit">
-            <Link to="/impressum" className="text-white hover:text-gray-300 hover:underline block mb-2">
-              {t("footer.contact")}
-            </Link>
-            <Link to="/privacy" className="text-white hover:text-gray-300 hover:underline block mb-2">
-              {t("footer.privacy")}
-            </Link>
-            <p className="text-gray-100 text-sm mt-4">
-              © 2025 Paulenzki
-            </p>
+            <div className="mt-8">
+              <Link to="/impressum" className="text-white hover:text-gray-300 hover:underline block mb-2">
+                {t("footer.contact")}
+              </Link>
+              <Link to="/privacy" className="text-white hover:text-gray-300 hover:underline block mb-2">
+                {t("footer.privacy")}
+              </Link>
+              <p className="text-gray-100 text-sm mt-4">
+                © 2025 Paulenzki
+              </p>
+            </div>
           </div>
         </div>
       </div>
