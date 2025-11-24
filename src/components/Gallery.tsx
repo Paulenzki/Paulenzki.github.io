@@ -12,7 +12,7 @@ export default function Gallery() {
   const images = [
     "images/Shootin2.jpg",
     "images/Flux2.jpg",
-    "images/Flux3.jpg",
+    "images/Flux3.JPG",
     "images/Flux1.jpg",
     "images/Reit im Winkl 1.jpg",
     "images/Reit im Winkl 2.jpg",
