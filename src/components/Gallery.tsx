@@ -15,7 +15,7 @@ export default function Gallery() {
     "images/Flux3.jpg",
     "images/Flux1.jpg",
     "images/Selb1.jpg",
-    "images/Selb2.png",
+    "images/Selb2.jpg",
   ];
 
   return (
