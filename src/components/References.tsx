@@ -34,7 +34,7 @@ export default function References() {
               target="_blank"
               className="text-blue-600 mr-2 hover:underline"> Straßenfest Reit im Winkl
             </a>
-            2023
+            2025
           </li>
           <li>
             <a
