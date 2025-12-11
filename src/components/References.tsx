@@ -29,6 +29,15 @@ export default function References() {
           </li>
           <li>
             <a
+              href="https://www.reitimwinkl.de/reit-im-winkl-strassenfest"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-blue-600 mr-2 hover:underline"> Straßenfest Reit im Winkl
+            </a>
+            2023
+          </li>
+          <li>
+            <a
               href="https://circus-sambesi.de/home"
               rel="noopener noreferrer"
               target="_blank"
