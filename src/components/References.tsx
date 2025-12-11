@@ -14,7 +14,7 @@ export default function References() {
               href="https://www.efbiotechnology.org/RPP"
               rel="noopener noreferrer"
               target="_blank"
-              className="text-blue-600 mr-2 hover:underline">RPP 12 - Dinnershow
+              className="text-blue-600 mr-2 hover:underline"> RPP 12 - Dinnershow
             </a>
             Ulm 2025
           </li>
@@ -23,7 +23,7 @@ export default function References() {
               href="https://www.flux-munich.com"
               rel="noopener noreferrer"
               target="_blank"
-              className="text-blue-600 mr-2 hover:underline">Flux
+              className="text-blue-600 mr-2 hover:underline"> Flux
             </a>
             München 2025
           </li>
@@ -51,7 +51,7 @@ export default function References() {
               href="https://kulturhandwerk.org/"
               rel="noopener noreferrer"
               target="_blank"
-              className="text-blue-600 mr-2 hover:underline">Kultur und Handwerksmarkt
+              className="text-blue-600 mr-2 hover:underline"> Kultur und Handwerksmarkt
             </a>
             2025
           </li>
