@@ -18,6 +18,8 @@ export default function Gallery() {
     "images/Reit im Winkl 2.jpg",
     "images/Selb1.jpg",
     "images/Selb2.jpg",
+    "images/Esslingen1.jpg",
+    "images/Esslingen2.jpg",
   ];
 
   return (
