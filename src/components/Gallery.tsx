@@ -14,12 +14,13 @@ export default function Gallery() {
     "images/Flux2.jpg",
     "images/Flux3.jpg",
     "images/Flux1.jpg",
+    "images/Esslingen1.jpg",
+    "images/Esslingen2.jpg",
     "images/Reit im Winkl 1.jpg",
     "images/Reit im Winkl 2.jpg",
     "images/Selb1.jpg",
     "images/Selb2.jpg",
-    "images/Esslingen1.jpg",
-    "images/Esslingen2.jpg",
+  
   ];
 
   return (
