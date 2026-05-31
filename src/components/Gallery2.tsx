@@ -14,6 +14,7 @@ export default function Gallery2() {
     "images/Sport1.jpg",
     "images/Sport2.jpg",
     "images/Esslingen3.jpg",
+    "images/Esslingen4.jpg",
     "images/Selb3.jpg",
   ];
 
